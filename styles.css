@@ -1,5 +1,4 @@
 :root{--bg:#fff;--text:#0a0a0a;--muted:#8a8a8a;--dot:#b5b5b5}
-@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#050814;--text:#f2f2f2;--muted:#7d8190;--dot:#555a6b}}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--muted);
   font-size:clamp(1.05rem,2.2vw,1.4rem);line-height:1.8;letter-spacing:-.01em;-webkit-font-smoothing:antialiased}
